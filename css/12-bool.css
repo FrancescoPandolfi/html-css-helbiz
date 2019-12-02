@@ -8,7 +8,6 @@
 }
 .debug .container [class*="col-"] {
   border: 1px solid blue;
-  height: 300px;
 }
 .debug-noheight .container [class*="col-"] {
   border: 1px solid blue;

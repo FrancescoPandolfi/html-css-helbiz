@@ -10,6 +10,11 @@ body {
 
 /* GENERAL */
 h2 {
+  font-size: 3.6rem;
+  color: #212529;
+  font-weight: 600;
+}
+h3 {
   font-size: 21px;
   font-weight: normal;
   line-height: 25px;
@@ -19,8 +24,8 @@ h2 {
 .text_center {
   text-align: center;
 }
-.padding_10 {
-  padding: 10px;
+.padding_20 {
+  padding: 20px;;
 }
 
 /* ---------
@@ -70,7 +75,7 @@ header {
 }
 .ico_hamburger {
   float: right;
-  font-size: 3.7em;
+  font-size: 2rem;
   line-height: 70px;
   vertical-align: middle;
 }
@@ -110,6 +115,9 @@ header {
 MAIN SECTION 1
 ------------ */
 
+main {
+  margin-top: 60px;
+}
 .grey_box {
   background-color: #fafafa;
   width: 100%;
@@ -118,7 +126,7 @@ MAIN SECTION 1
   padding: 60px 0 0 0;
 }
 .grey_box img:first-child {
-  height: 25px;
+  height: 22px;
 }
 .grey_box img:last-child {
   height: 350px;
@@ -127,15 +135,45 @@ MAIN SECTION 1
 }
 .link {
   font-size: 2rem;
+  text-decoration: none;
 }
 a.learn_more {
-  text-decoration: none;
+  color: #0065BD;
+}
+a:hover.learn_more {
+  text-decoration: underline;
 }
 .chevron:after {
   width: 20px;
   height: 20px;
+  padding-left: 10px;
   content: url(../img/Arrow.svg);
 }
+
+/* ------------
+MAIN SECTION 2
+------------ */
+
+.bg_image {
+  background-image: url(../img/HelbizBanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.bg_image img {
+  margin-top: 120px;
+  height: 620px;
+}
+.text_wrapper_l {
+  padding: 550px 0 0 60px;
+}
+.text_wrapper_r {
+  padding: 550px 60px 0 30px;
+}
+p.step {
+  font-size: 1.5rem;
+}
+
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
   /* HEADER */
@@ -155,7 +193,7 @@ a.learn_more {
   .jumbo_text a img {
     width: 100%;
   }
-  /* SECTION 1 */
+  /* First_sec */
 }
 
 @media screen and (max-width: 768px) {
