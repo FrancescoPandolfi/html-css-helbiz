@@ -27,7 +27,7 @@ h3 {
 .padding_20 {
   padding: 20px;;
 }
-.white {
+.wwhite {
   color: white;
 }
 
@@ -164,6 +164,7 @@ MAIN SECTION 2
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
+  margin-bottom: 260px;
 }
 .bg_image img {
   margin-top: 120px;
@@ -190,6 +191,26 @@ MAIN SECTION 3
   height: 500px;
   background-image: url(../img/ScooterHelbiz-2400.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.title_3 {
+  font-size: 42px;
+  line-height: 58px;
+  font-weight: 800;
+  color: white;
+  padding: 150px 0 0 0;
+}
+.chevron_w:after {
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  content: url(../img/arrow-white.svg);
+}
+a.learn_more_w {
+  color: white;
+}
+a:hover.learn_more_w {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {

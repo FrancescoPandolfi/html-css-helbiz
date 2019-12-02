@@ -162,6 +162,7 @@
   }
 }
 
+@media screen and (min-width: 992px) {
 /* Offset */
 .col-offset-lg-1 {
   margin-left: calc((100% / 12) * 1);
@@ -195,6 +196,7 @@
 }
 .col-offset-lg-11 {
   margin-left: calc((100% / 12) * 11);
+}
 }
 
 /* mediaquery offset */
